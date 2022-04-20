@@ -1,5 +1,5 @@
 Negro 24272b
-verde 9ef01a
+Blanco e0ddda
 gris ced4da
 
 fuente <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -7,3 +7,21 @@ fuente <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 font-family: 'Bebas Neue', cursive;
+
+
+
+studio@studiobidart.com
+
+::Studiobidart:: 
+Iluminación & Mobiliario
+Ezequiel Bidart 
+Zona sur - Avellaneda 
+Whatsapp: +54 9 1158420226
+http://www.studiobidart.com/ 
+https://twitter.com/studiobidart
+https://www.facebook.com/Studiobidart
+https://www.instagram.com/studiobidart/?hl=es
+
+La dirección es Antofagasta 290 1 piso C  - Avellaneda
+
+Studio Bidart se crea a partir de la conjuncion del trabajo artesanal y el estudio intensivo de materiales e innovacion, logrando diseños unicos, de excelente calidad y terminacion.

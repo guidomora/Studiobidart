@@ -37,7 +37,7 @@ nav {
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
     background-color: #24272b;
-    color: #9ef01a;
+    color: #e0ddda;
     border-style: none;
     margin-right: 20px;
 }
@@ -126,4 +126,12 @@ footer{
 
 .textoFooter {
     color: white;
+}
+
+/* contacto */
+
+.iframe {
+    height: 600px;
+    width: 600px;
+    background-color: #ced4da;
 }
