@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #24272b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea {
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+}
+
+.subrayado {
+    text-decoration: none;
+}
+
+.boton {
+    height: 40px;
+    width: 90px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    background-color: #24272b;
+    color: #9ef01a;
+    border-style: none;
+    margin-right: 20px;
+}
+
+.icono {
+    color: #9ef01a;
+    size: 20px;
+}
+
+.carrousel {
+    width: 100%;
+    height: 700px;
+}
+
+.lamparas {
+    width: 100%;
+    height: 700px;
+}
+
+.titulos {
+    height: 100px;
+    width: 100%;
+    background-color: #ced4da;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.titulosSeparados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.subtitulo {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.articulos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.articulosCuadrado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 750px;
+    width: 400px;
+    border: 3px;
+    border-color: #24272b;
+    margin: 35px;
+    padding: 35px;
+}
+
+.articulosTitulo {
+    font-family:'Bebas Neue', cursive;
+    font-size: 27px;
+}
+
+.articulosImagen {
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+    margin: 15px;
+    padding: 20px;
+}
+
+.articulosDescripcion {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 17px;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #24272b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.textoFooter {
+    color: white;
+}
