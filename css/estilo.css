@@ -42,11 +42,6 @@ nav {
     margin-right: 20px;
 }
 
-.icono {
-    color: #9ef01a;
-    size: 20px;
-}
-
 .carrousel {
     width: 100%;
     height: 700px;
@@ -115,6 +110,8 @@ nav {
     font-size: 17px;
 }
 
+/* footer */
+
 footer{
     height: 100px;
     width: 100%;
@@ -145,4 +142,18 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+
+
+.iconos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.iconos--color {
+    color: #24272b;
+    margin: 5px;
 }
