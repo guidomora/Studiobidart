@@ -2,29 +2,51 @@
     margin: 0;
     padding: 0;
 }
-
-
-header {
-    height: 70px;
-    width: 100%;
-    background-color: #24272b;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-
+/* ---- BURGER---- */
+#sidebar {
+    width: 270px;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(43, 42, 42);
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#sidebar.active {
+    left: -270px;
 }
 
-.linea {
-    display: inline;
-    text-decoration: none;
+#sidebar ul li {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     list-style: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#sidebar ul li:hover {
+    color: grey;
+}
+
+#sidebar .toggle-btn {
+    cursor: pointer;
+    left: 290px;
+    top: 20px;
+    position: absolute;
+}
+
+#sidebar .toggle-btn span {
+    display: block;
+    text-align: center;
+    border: 1px solid;
+}
+/* ---- BURGER---- */
+.items {
+    text-decoration: none;
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #ced4da;
 }
 
 .subrayado {
@@ -43,8 +65,10 @@ nav {
 }
 
 .carrousel {
-    width: 100%;
+    width: 90%;
     height: 700px;
+    padding-left: 140px;
+    position:static;
 }
 
 .lamparas {
@@ -156,4 +180,8 @@ footer{
 .iconos--color {
     color: #24272b;
     margin: 5px;
+}
+
+.burger {
+    color: #ced4da;
 }
