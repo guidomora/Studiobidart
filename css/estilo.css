@@ -2,46 +2,8 @@
     margin: 0;
     padding: 0;
 }
-/* ---- BURGER---- */
-#sidebar {
-    width: 270px;
-    height: 100%;
-    position: fixed;
-    background-color: rgb(43, 42, 42);
-}
 
-#sidebar.active {
-    left: -270px;
-}
 
-#sidebar ul li {
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    list-style: none;
-    padding: 15px;
-    cursor: pointer;
-}
-
-#sidebar ul li:hover {
-    color: grey;
-}
-
-#sidebar .toggle-btn {
-    cursor: pointer;
-    left: 290px;
-    top: 20px;
-    position: absolute;
-}
-
-#sidebar .toggle-btn span {
-    display: block;
-    text-align: center;
-    border: 1px solid;
-}
-/* ---- BURGER---- */
 .items {
     text-decoration: none;
     font-family:'Bebas Neue', cursive;
@@ -49,8 +11,28 @@
     color: #ced4da;
 }
 
+.fondo {
+    background-color: #24272b;
+}
+
+.listas :hover {
+    background-color: #3f3a3a;
+    text-decoration: none;
+}
+.burger-btn {
+    cursor: pointer;
+}
+
 .subrayado {
     text-decoration: none;
+    font-family:'Bebas Neue', cursive;
+    font-size: 23px;
+    color: #ced4da;
+    margin: 20px;
+}
+.equis {
+    margin: 10px;
+    color: #ced4da;
 }
 
 .boton {
@@ -65,10 +47,8 @@
 }
 
 .carrousel {
-    width: 90%;
-    height: 700px;
-    padding-left: 140px;
-    position:static;
+    width: 100%;
+    height: 600px;
 }
 
 .lamparas {
@@ -134,13 +114,14 @@
     font-size: 17px;
 }
 
-/* footer */
+/* ----------footer---------- */
 
 footer{
     height: 100px;
     width: 100%;
     background-color: #24272b;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -149,8 +130,14 @@ footer{
 .textoFooter {
     color: white;
 }
+.iconos--color-footer {
+    color: white;
+    margin: 10px;
+}
+/* ----------footer---------- */
 
-/* contacto */
+
+/* --------contacto--------- */
 
 .textoContacto {
     font-family:'Bebas Neue', cursive;
@@ -179,7 +166,7 @@ footer{
 
 .iconos--color {
     color: #24272b;
-    margin: 5px;
+    margin: 10px;
 }
 
 .burger {
