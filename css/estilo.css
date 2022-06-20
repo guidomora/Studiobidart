@@ -50,6 +50,11 @@
     height: 600px;
 }
 
+.imgCarrousel {
+    width: 100%;
+    height: 100%;
+}
+
 .lamparas {
     width: 100%;
     height: 700px;
@@ -101,8 +106,8 @@
 }
 
 .articulosImagen {
-    height: 500px;
-    width: 300px;
+    height: 550px;
+    width: 400px;
     object-fit: cover;
     margin: 15px;
     padding: 20px;
