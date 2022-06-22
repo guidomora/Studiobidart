@@ -194,13 +194,15 @@ footer{
     .articulosCuadrado {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        height: 530px;
-        width: 300px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 550px;
+        width: 370px;
         border: 3px;
         border-color: #24272b;
-        margin: 18px;
-        padding: 18px;
+        margin: 10px;
+        padding: 13px;
         border-style: solid;
     }
     
@@ -210,16 +212,16 @@ footer{
     }
     
     .articulosImagen {
-        height: 350px;
-        width: 200px;
+        height: 370px;
+        width: 340px;
         object-fit: cover;
-        margin: 10px;
-        padding: 10px;
+        margin: 0px;
+        padding: 0px;
     }
     
     .articulosDescripcion {
         font-family: 'Varela Round', sans-serif;
-       font-size: 15px;
+       font-size: 17px;
     }
 }
 
@@ -242,8 +244,8 @@ footer{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        height: 400px;
-        width: 340px;
+        height: 440px;
+        width: 430px;
         border: 3px;
         border-color: #24272b;
         margin: 13px;
@@ -258,8 +260,8 @@ footer{
     }
     
     .articulosImagen {
-        height: 230px;
-        width: 140px;
+        height: 280px;
+        width: 280px;
         object-fit: cover;
         margin: 5px;
         padding: 5px;
