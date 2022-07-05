@@ -32,7 +32,7 @@ html.pushbar_locked .pushbar_overlay {
     overflow-y: auto;
     will-change: transform;
     transition: transform 0.5s ease;
-    background: #24272b;
+    background: #2d3142;
 }
 
 [data-pushbar-direction="left"][data-pushbar-id], [data-pushbar-direction="right"][data-pushbar-id] {
